@@ -122,7 +122,4 @@ jobs:
       sast-horusec-enabled: ${{ inputs.sast-horusec-enabled }}
       sast-snyk-code-enabled: ${{ inputs.sast-snyk-code-enabled }}
       project-name: H6060-Java-Jackson-Databind
-      eclipse-steady-workspace-token: 19DACF250B828F3BAB827AFA5789DB55
-      eclipse-steady-project-source-directories: src/main
       coverage-report-name: jacoco.xml
-      build-directory: target
